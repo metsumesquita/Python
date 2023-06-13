@@ -1,0 +1,34 @@
+#queremos que o string que foi escolhido 
+#seja quebrado para isso usamos o split para quebrar nosso string em pedaços
+#entre cada espaço sera formando um novo string
+#agora coloque tudo isso em uma lista
+loc="A rua de luiza fica longe!"
+loc.split()
+lista=[]
+loc.split()
+for i in loc.split():
+    lista.append(i)
+print(lista)
+
+#altera o nome passado para a variavel
+#faça isso alterando a primeira letra do nome
+nome='sam'
+Primeira_letras=nome[1::]
+novo_nome='P'+Primeira_letras
+print(novo_nome)
+
+
+#aqui temos o exemplo de como funciona 
+a="Ola todos,nos da light academy"
+b="Estamos convidando todos os novatos para o evento de sabado a noite"
+c=a + b +"\n" #quebra de linha
+print(c+"as 18 horas") 
+d=a+"\n"+b #quebra de linha
+print(d)
+#com quebra de linha
+
+#poderia pegar apenas um pedaço do que esta escrito na string
+print('tinker'[1:4])
+
+#como coletar um caractere de uma string
+'Hello World'[7]
